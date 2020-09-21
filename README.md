@@ -1,10 +1,10 @@
 # FTPClient
-This program utilizes TCP socket programming without the use of apache commons library
-Java is the language utilized
+This program utilizes TCP socket programming to implement a Client FTP without the use of apache commons library
+This simple FTP only implements the commands LS, GET,PUT,DELETE, CD and QUIT.  Java is the language utilized.
 
 Usage Statement: 
-javac FTPClient.java
-java FTPClient [hostname]
+1)COMPILE-javac FTPClient.java
+2)RUN- java FTPClient [hostname]
 
 
 Members:
