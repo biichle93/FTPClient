@@ -5,7 +5,8 @@ import java.net.*;
 import java.nio.charset.StandardCharsets;
 
 public class FTPClient {
-    private enum FTPCommands {
+    private enum FTPCommands 
+	{
         OPTS,
         USER,
         PASS,
